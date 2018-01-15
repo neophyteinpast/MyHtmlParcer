@@ -33,6 +33,7 @@ public class Summary {
     private void printSummary() {
         // print summary results
         // print run time
+        System.out.println("\n===============================================================================");
         printResults("Run-time", getRunTime());
 
         // print memory footprint in megabytes

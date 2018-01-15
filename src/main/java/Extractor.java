@@ -37,7 +37,6 @@ public class Extractor {
         // get offers by keyword
         print("Searching pages for keyword: %s", keyword);
         extractor.getPageLinks(URL, keyword);
-        print("Links: (%d)", extractor.links.size());
 
         //compile offers
         print("Compiling offers: %s", "");
